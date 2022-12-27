@@ -4,9 +4,9 @@ Param(
     [string]$finishTime,
     [Parameter(ParameterSetName = 'BeefWeight')]
     [int]$beefWeight,
-    [Parameter(ParameterSetName = 'BeefWeight')]
+    [Parameter(ParameterSetName = 'LambWeight')]
     [int]$lambWeight,
-    [Parameter(ParameterSetName = 'BeefWeight')]
+    [Parameter(ParameterSetName = 'PorkWeight')]
     [int]$porkWeight
 )
 
