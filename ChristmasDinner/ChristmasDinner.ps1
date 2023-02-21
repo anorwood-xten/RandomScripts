@@ -1,12 +1,8 @@
 Param(
-    [Parameter(
-        Mandatory = $true)]
+    [Parameter(Mandatory = $true)]
     [string]$finishTime,
-    [Parameter(ParameterSetName = 'BeefWeight')]
     [int]$beefWeight,
-    [Parameter(ParameterSetName = 'LambWeight')]
     [int]$lambWeight,
-    [Parameter(ParameterSetName = 'PorkWeight')]
     [int]$porkWeight
 )
 
